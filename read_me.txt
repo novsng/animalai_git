@@ -1,6 +1,6 @@
-1.flaskをインストール
+1.flask・Tensorflowをインストール
 
-2.コマンドプロンプトでset FLASK_APP=predictfile.py
+2.コマンドプロンプトで、activate tf 140を実行。その後set FLASK_APP=predictfile.pyを入力
 
 3.次でpython -m flask run　または　flask runでサーバーを立ち上げる
 
@@ -10,4 +10,4 @@
 
 6.Uploadボタンを押し、画像が三種類の動物のどれか確立と合わせて表示される。
 （学習した動物の画像量、簡単なモデルで構成されているため、まだ精度は低め。
-動物がアップのものが良い。）
+一度画像を読み込んだら、サーバーを落として再度上げ直さないとエラーになってしまう）
